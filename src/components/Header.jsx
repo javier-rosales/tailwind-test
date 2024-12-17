@@ -14,7 +14,7 @@ const Header = () => {
             </div>
             <ul
               tabIndex={0}
-              className='menu menu-sm dropdown-content left-3 right-3 bg-base-300 rounded-lg mt-3 p-2 shadow'>
+              className='menu menu-sm dropdown-content left-3 right-3 bg-base-300 rounded-lg mt-3 md:mt-4 p-2 shadow'>
               <li>
                 <a className='item'>
                   Pagina principal
