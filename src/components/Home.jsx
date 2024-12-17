@@ -33,11 +33,44 @@ const Home = () => {
         <SectionTitle>
           Reviews
         </SectionTitle>
-        <UserReviewCard
-          avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
-          name='Usuario'
-          review='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa harum dolor voluptates nisi quasi quibusdam.'
-        />
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-2xl lg:max-w-none mx-auto'>
+          <div className='flex flex-col gap-6'>
+            <UserReviewCard
+              avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
+              name='Usuario'
+              review='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa harum dolor voluptates nisi quasi quibusdam.'
+            />
+            <UserReviewCard
+              avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
+              name='Usuario'
+              review='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+            />
+          </div>
+          <div className='flex flex-col gap-6'>
+            <UserReviewCard
+              avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
+              name='Usuario'
+              review='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error temporibus doloremque repellendus explicabo laudantium illum, dignissimos blanditiis quis quam, eius non ratione culpa fugiat debitis modi soluta veritatis.'
+            />
+            <UserReviewCard
+              avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
+              name='Usuario'
+              review='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+            />
+          </div>
+          <div className='flex flex-col gap-6'>
+            <UserReviewCard
+              avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
+              name='Usuario'
+              review='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+            />
+            <UserReviewCard
+              avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
+              name='Usuario'
+              review='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error temporibus doloremque repellendus explicabo laudantium illum, dignissimos blanditiis quis quam.'
+            />
+          </div>
+        </div>
       </Section>
     </>
   )
