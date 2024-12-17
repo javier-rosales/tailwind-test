@@ -10,15 +10,15 @@ import './Header.css'
 const Header = () => {
   return (
     <header className='px-3 lg:px-5 fixed left-0 right-0 z-10'>
-      <div className='navbar justify-between my-4 px-2 md:px-5 max-w-7xl mx-auto bg-base-200 rounded-lg shadow'>
+      <div className='navbar justify-between my-4 px-2 md:px-5 max-w-7xl mx-auto bg-base-300 rounded-lg shadow'>
         <div>
-          <div className='dropdown'>
+          <div className='dropdown static'>
             <div tabIndex={0} role='button' className='btn btn-ghost lg:hidden px-3 md:px-4'>
               <IconMenu />
             </div>
             <ul
               tabIndex={0}
-              className='menu menu-sm dropdown-content -left-2 md:-left-5 bg-base-200 rounded-lg mt-3 w-52 p-2 shadow'>
+              className='menu menu-sm dropdown-content left-3 right-3 bg-base-300 rounded-lg mt-3 p-2 shadow'>
               <li>
                 <a className='item'>
                   <IconHouse />
