@@ -24,7 +24,7 @@ const Home = () => {
           </p>
           <img
             className='w-full max-w-md rounded-xl lg:aspect-square object-cover'
-            src='/supermarket-worker.jpg'
+            src='/supermarket-worker.webp'
             alt='Supermarket worker'
           />
         </div>
