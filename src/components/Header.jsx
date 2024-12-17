@@ -1,10 +1,6 @@
 import ThemeSwitcher from './ThemeSwitcher'
 import IconMenu from './IconMenu'
 import IconHashtag from './IconHashtag'
-import IconHouse from './IconHouse'
-import IconBox from './IconBox'
-import IconHandShake from './IconHandShake'
-import IconPhone from './IconPhone'
 import './Header.css'
 
 const Header = () => {
