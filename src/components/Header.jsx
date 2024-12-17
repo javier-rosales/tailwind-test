@@ -21,25 +21,21 @@ const Header = () => {
               className='menu menu-sm dropdown-content left-3 right-3 bg-base-300 rounded-lg mt-3 p-2 shadow'>
               <li>
                 <a className='item'>
-                  <IconHouse />
                   Pagina principal
                 </a>
               </li>
               <li>
                 <a className='item'>
-                  <IconBox />
                   Productos
                 </a>
               </li>
               <li>
                 <a className='item'>
-                  <IconHandShake />
                   Servicios
                 </a>
               </li>
               <li>
                 <a className='item'>
-                  <IconPhone />
                   Contacto
                 </a>
               </li>
