@@ -1,6 +1,7 @@
 import './Home.css'
 import Section from './Section'
 import SectionTitle from './SectionTitle'
+import UserReviewCard from './UserReviewCard'
 
 const Home = () => {
   return (
@@ -27,6 +28,16 @@ const Home = () => {
             alt='Supermarket worker'
           />
         </div>
+      </Section>
+      <Section>
+        <SectionTitle>
+          Reviews
+        </SectionTitle>
+        <UserReviewCard
+          avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
+          name='Usuario'
+          review='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa harum dolor voluptates nisi quasi quibusdam.'
+        />
       </Section>
     </>
   )
