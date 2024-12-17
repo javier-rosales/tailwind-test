@@ -22,7 +22,7 @@ const Home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem suscipit reprehenderit, necessitatibus doloribus ipsa amet dolores beatae aliquid nulla placeat iste dolore non incidunt quisquam est delectus voluptatibus laborum!
           </p>
           <img
-            className='max-w-md rounded-xl lg:aspect-square object-cover'
+            className='w-full max-w-md rounded-xl lg:aspect-square object-cover'
             src='/supermarket-worker.jpg'
             alt='Supermarket worker'
           />
