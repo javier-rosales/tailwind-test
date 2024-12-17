@@ -5,7 +5,7 @@ import SectionTitle from './SectionTitle'
 const Home = () => {
   return (
     <>
-      <div className='bg-enterprise py-52'>
+      <div className='bg-enterprise py-52 rounded-b-2xl md:rounded-b-3xl lg:rounded-b-[2rem]'>
         <h2 className='text-5xl md:text-6xl lg:text-7xl py-6 lg:py-8 font-medium text-center'>
           Empresa
         </h2>

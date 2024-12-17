@@ -1,5 +1,6 @@
 .bg-enterprise {
     position: relative;
+    overflow: hidden;
 }
 
 .bg-enterprise::before {
