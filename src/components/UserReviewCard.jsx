@@ -1,6 +1,6 @@
 const UserReviewCard = ({ avatarSrc, name, review }) => {
   return (
-    <div className='bg-base-200 rounded-lg p-8 shadow-md'>
+    <div className='bg-base-200 rounded-lg p-8 shadow-lg'>
       <div className='flex items-center gap-4'>
         <div className='avatar flex'>
           <div className='mask mask-squircle w-12'>
