@@ -34,8 +34,8 @@ const Home = () => {
         <SectionTitle>
           Reviews
         </SectionTitle>
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-2xl lg:max-w-none mx-auto'>
-          <div className='flex flex-col gap-6'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 max-w-2xl lg:max-w-none mx-auto'>
+          <div className='flex flex-col gap-10'>
             <UserReviewCard
               avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
               name='Usuario'
@@ -47,7 +47,7 @@ const Home = () => {
               review='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
             />
           </div>
-          <div className='flex flex-col gap-6'>
+          <div className='flex flex-col gap-10'>
             <UserReviewCard
               avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
               name='Usuario'
@@ -59,7 +59,7 @@ const Home = () => {
               review='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
             />
           </div>
-          <div className='flex flex-col gap-6'>
+          <div className='flex flex-col gap-10'>
             <UserReviewCard
               avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
               name='Usuario'
