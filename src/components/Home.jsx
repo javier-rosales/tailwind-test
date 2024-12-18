@@ -2,6 +2,7 @@ import './Home.css'
 import Section from './Section'
 import SectionTitle from './SectionTitle'
 import UserReviewCard from './UserReviewCard'
+import Card from './Card'
 
 const Home = () => {
   return (
@@ -73,7 +74,16 @@ const Home = () => {
         </div>
       </Section>
       <Section>
-        hello
+        <SectionTitle>
+          Servicios
+        </SectionTitle>
+        <div>
+          <Card
+            imgSrc='/close-up-woman-writing-clipboard.webp'
+            title='Gestion de inventario'
+            content='Manten el control de tu inventario con nuestras soluciones avanzadas. Desde el seguimiento de productos hasta alertas de stock, garantizamos una gestion eficiente y precisa.'
+          />
+        </div>
       </Section>
     </>
   )
