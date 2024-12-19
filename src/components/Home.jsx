@@ -16,12 +16,9 @@ const Home = () => {
         </p>
       </div>
       <Section>
-        <SectionTitle>
-          Titulo
-        </SectionTitle>
         <div className='flex flex-col lg:flex-row items-center gap-4 md:gap-10'>
-          <p className='text-xl lg:text-2xl leading-relaxed'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem suscipit reprehenderit, necessitatibus doloribus ipsa amet dolores beatae aliquid nulla placeat iste dolore non incidunt quisquam est delectus voluptatibus laborum!
+          <p className='text-xl md:text-2xl lg:text-3xl text-center leading-relaxed lg:leading-loose'>
+            Impulsa tu negocio con nuestras soluciones de comercio. Todo lo que necesitas para crecer, en un solo lugar.
           </p>
           <img
             className='w-full max-w-md rounded-xl lg:aspect-square object-cover shadow-xl'
