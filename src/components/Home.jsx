@@ -31,7 +31,7 @@ const Home = () => {
         <SectionTitle>
           Reviews
         </SectionTitle>
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 max-w-2xl lg:max-w-none mx-auto'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 max-w-xl lg:max-w-none mx-auto'>
           <div className='flex flex-col gap-10'>
             <UserReviewCard
               avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
