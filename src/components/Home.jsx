@@ -36,36 +36,36 @@ const Home = () => {
             <UserReviewCard
               avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
               name='Usuario'
-              review='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa harum dolor voluptates nisi quasi quibusdam.'
+              review='Gracias a sus herramientas, mi tienda en línea es más eficiente que nunca. ¡Altamente recomendado!'
             />
             <UserReviewCard
               avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
               name='Usuario'
-              review='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-            />
-          </div>
-          <div className='flex flex-col gap-10'>
-            <UserReviewCard
-              avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
-              name='Usuario'
-              review='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error temporibus doloremque repellendus explicabo laudantium illum, dignissimos blanditiis quis quam, eius non ratione culpa fugiat debitis modi soluta veritatis.'
-            />
-            <UserReviewCard
-              avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
-              name='Usuario'
-              review='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+              review='El soporte técnico siempre está disponible cuando lo necesito, resolviendo mis dudas rápidamente y con soluciones claras. La atención al cliente es excepcional, lo que me da mucha confianza en los servicios.'
             />
           </div>
           <div className='flex flex-col gap-10'>
             <UserReviewCard
               avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
               name='Usuario'
-              review='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+              review='Con su ayuda, pude expandir mi negocio a clientes internacionales sin complicaciones.'
             />
             <UserReviewCard
               avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
               name='Usuario'
-              review='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error temporibus doloremque repellendus explicabo laudantium illum, dignissimos blanditiis quis quam.'
+              review='Sus reportes de ventas son claros y detallados, ayudándome a identificar tendencias y mejorar mis estrategias cada mes. Una herramienta indispensable para mi negocio.'
+            />
+          </div>
+          <div className='flex flex-col gap-10'>
+            <UserReviewCard
+              avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
+              name='Usuario'
+              review='El diseño personalizado de mi tienda en línea no solo luce profesional, sino que también ha mejorado la experiencia de mis clientes. ¡Gracias por el excelente trabajo!'
+            />
+            <UserReviewCard
+              avatarSrc='https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp'
+              name='Usuario'
+              review='He probado varias plataformas, pero ninguna tan completa como esta. Perfecta para crecer. La recomiendo ampliamente.'
             />
           </div>
         </div>
