@@ -4,7 +4,7 @@ import IconFacebook from './IconFacebook'
 
 const Footer = () => {
   return (
-    <footer className='flex flex-col lg:flex-row items-center lg:justify-around gap-7 bg-base-300 px-5 py-10'>
+    <footer className='flex flex-col lg:flex-row items-center lg:justify-around gap-7 bg-base-300 mt-10 px-5 py-12 lg:py-14'>
       <aside className='flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4'>
         <IconHashtag />
         <p>
