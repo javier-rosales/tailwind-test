@@ -77,11 +77,21 @@ const Home = () => {
         <SectionTitle>
           Servicios
         </SectionTitle>
-        <div>
+        <div className='grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-10'>
           <Card
             imgSrc='/close-up-woman-writing-clipboard.webp'
             title='Gestion de inventario'
-            content='Manten el control de tu inventario con nuestras soluciones avanzadas. Desde el seguimiento de productos hasta alertas de stock, garantizamos una gestion eficiente y precisa.'
+            content='Manten el control total de tu inventario con nuestras soluciones avanzadas. Desde el seguimiento de productos hasta alertas de stock, garantizamos una gestion eficiente y precisa.'
+          />
+          <Card
+            imgSrc='/vehicles-laptop-supply-chain-representation.webp'
+            title='Logistica y distribucion'
+            content='Ofrecemos servicios de logistica y distribucion confiables para asegurar que tus productos lleguen a tiempo y en perfecto estado en cualquier destino.'
+          />
+          <Card
+            imgSrc='/discount-shopping-season-with-sale.webp'
+            title='Consultoria en comercio electronico'
+            content='Potencia tu negocio en linea con nuestras asesorias especializadas. Creamos estrategias que maximizan la presencia y ventas en plataformas digitales.'
           />
         </div>
       </Section>
