@@ -3,6 +3,8 @@ import Section from './Section'
 import SectionTitle from './SectionTitle'
 import UserReviewCard from './UserReviewCard'
 import Card from './Card'
+import Timeline from './Timeline'
+import timelineEntries from '../timelineEntries'
 
 const Home = () => {
   return (
@@ -91,6 +93,12 @@ const Home = () => {
             content='Potencia tu negocio en linea con nuestras asesorias especializadas. Creamos estrategias que maximizan la presencia y ventas en plataformas digitales.'
           />
         </div>
+      </Section>
+      <Section>
+        <SectionTitle>
+          Nuestra historia
+        </SectionTitle>
+        <Timeline entries={timelineEntries} />
       </Section>
     </>
   )
