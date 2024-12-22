@@ -1,6 +1,6 @@
-import IconHashtag from './IconHashtag'
-import IconYouTube from './IconYouTube'
-import IconFacebook from './IconFacebook'
+import IconHashtag from './icons/IconHashtag'
+import IconYouTube from './icons/IconYouTube'
+import IconFacebook from './icons/IconFacebook'
 
 const Footer = () => {
   return (

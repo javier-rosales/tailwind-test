@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import IconSun from './IconSun'
-import IconMoon from './IconMoon'
+import IconSun from './icons/IconSun'
+import IconMoon from './icons/IconMoon'
 
 const ThemeSwitcher = () => {
   const [theme, setTheme] = useState(() =>

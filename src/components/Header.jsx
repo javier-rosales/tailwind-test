@@ -1,6 +1,6 @@
 import ThemeSwitcher from './ThemeSwitcher'
-import IconMenu from './IconMenu'
-import IconHashtag from './IconHashtag'
+import IconMenu from './icons/IconMenu'
+import IconHashtag from './icons/IconHashtag'
 import './Header.css'
 
 const Header = () => {

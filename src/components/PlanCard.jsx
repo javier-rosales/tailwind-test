@@ -1,4 +1,4 @@
-import IconCheck from './IconCheck'
+import IconCheck from './icons/IconCheck'
 
 const PlanCard = ({ title, price, items }) => {
   return (
