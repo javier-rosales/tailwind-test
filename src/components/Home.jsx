@@ -33,7 +33,29 @@ const Home = () => {
       </Section>
       <Section>
         <SectionTitle>
-          Reviews
+          Servicios
+        </SectionTitle>
+        <div className='flex lg:flex-wrap flex-col lg:flex-row items-center lg:items-stretch lg:justify-center gap-10 lg:gap-14 lg:*:basis-1/2'>
+          <Card
+            imgSrc='/close-up-woman-writing-clipboard.webp'
+            title='Gestion de inventario'
+            content='Manten el control total de tu inventario con nuestras soluciones avanzadas. Desde el seguimiento de productos hasta alertas de stock, garantizamos una gestion eficiente y precisa.'
+          />
+          <Card
+            imgSrc='/vehicles-laptop-supply-chain-representation.webp'
+            title='Logistica y distribucion'
+            content='Ofrecemos servicios de logistica y distribucion confiables para asegurar que tus productos lleguen a tiempo y en perfecto estado en cualquier destino.'
+          />
+          <Card
+            imgSrc='/discount-shopping-season-with-sale.webp'
+            title='Consultoria en comercio electronico'
+            content='Potencia tu negocio en linea con nuestras asesorias especializadas. Creamos estrategias que maximizan la presencia y ventas en plataformas digitales.'
+          />
+        </div>
+      </Section>
+      <Section>
+        <SectionTitle>
+          Opiniones de nuestros clientes
         </SectionTitle>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 max-w-xl lg:max-w-none mx-auto'>
           <div className='flex flex-col gap-10'>
@@ -76,34 +98,6 @@ const Home = () => {
       </Section>
       <Section>
         <SectionTitle>
-          Servicios
-        </SectionTitle>
-        <div className='flex lg:flex-wrap flex-col lg:flex-row items-center lg:items-stretch lg:justify-center gap-10 lg:gap-14 lg:*:basis-1/2'>
-          <Card
-            imgSrc='/close-up-woman-writing-clipboard.webp'
-            title='Gestion de inventario'
-            content='Manten el control total de tu inventario con nuestras soluciones avanzadas. Desde el seguimiento de productos hasta alertas de stock, garantizamos una gestion eficiente y precisa.'
-          />
-          <Card
-            imgSrc='/vehicles-laptop-supply-chain-representation.webp'
-            title='Logistica y distribucion'
-            content='Ofrecemos servicios de logistica y distribucion confiables para asegurar que tus productos lleguen a tiempo y en perfecto estado en cualquier destino.'
-          />
-          <Card
-            imgSrc='/discount-shopping-season-with-sale.webp'
-            title='Consultoria en comercio electronico'
-            content='Potencia tu negocio en linea con nuestras asesorias especializadas. Creamos estrategias que maximizan la presencia y ventas en plataformas digitales.'
-          />
-        </div>
-      </Section>
-      <Section>
-        <SectionTitle>
-          Nuestra historia
-        </SectionTitle>
-        <Timeline entries={timelineEntries} />
-      </Section>
-      <Section>
-        <SectionTitle>
           Planes
         </SectionTitle>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
@@ -114,6 +108,12 @@ const Home = () => {
             />
           ))}
         </div>
+      </Section>
+      <Section>
+        <SectionTitle>
+          Nuestra historia
+        </SectionTitle>
+        <Timeline entries={timelineEntries} />
       </Section>
     </>
   )
