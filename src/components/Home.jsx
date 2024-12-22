@@ -5,6 +5,8 @@ import UserReviewCard from './UserReviewCard'
 import Card from './Card'
 import Timeline from './Timeline'
 import timelineEntries from '../timelineEntries'
+import PlanCard from './PlanCard'
+import plans from '../plans'
 
 const Home = () => {
   return (
@@ -99,6 +101,19 @@ const Home = () => {
           Nuestra historia
         </SectionTitle>
         <Timeline entries={timelineEntries} />
+      </Section>
+      <Section>
+        <SectionTitle>
+          Planes
+        </SectionTitle>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
+          {plans.map(({ id, ...plan }) => (
+            <PlanCard
+              key={id}
+              {...plan}
+            />
+          ))}
+        </div>
       </Section>
     </>
   )
