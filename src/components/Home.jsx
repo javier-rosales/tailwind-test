@@ -78,7 +78,7 @@ const Home = () => {
         <SectionTitle>
           Servicios
         </SectionTitle>
-        <div className='grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-10'>
+        <div className='flex lg:flex-wrap flex-col lg:flex-row items-center lg:items-stretch lg:justify-center gap-10 lg:gap-14 lg:*:basis-1/2'>
           <Card
             imgSrc='/close-up-woman-writing-clipboard.webp'
             title='Gestion de inventario'
